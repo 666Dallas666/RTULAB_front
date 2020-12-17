@@ -1,0 +1,82 @@
+@media (max-width: 992px) {
+.contwidth{
+    width: auto;
+}
+.contwidth1{
+    width: auto;
+}
+}
+@media (min-width: 992px) {
+.contwidth{
+    width: 360px;
+}
+.contwidth1{
+    width: 875px;
+}
+}
+.nonborder{
+    border-width:0px !important;
+    border-color:none !important;
+}
+.colfix{
+    padding:0px !important;
+}
+.bg{
+    background-color: #d3b978;
+    background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+    }
+    .bg2{
+        background-color: #e6c181;
+        background-image: url("https://www.transparenttextures.com/patterns/my-little-plaid-dark.png");
+    }
+    .bg3{
+        background-color: #e6cfa5;
+        background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
+    }
+    .bg4{
+        background-color: #e7d5b0;
+        background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    }
+    .border-5 {
+    border-width:5px !important;
+    border-color:rgb(100, 85, 56) !important;
+    }
+    .border-2 {
+    border-width:2px !important;
+    border-color:black !important;
+    }
+    mark{
+        background: #ffec82;
+        padding: 0 3px;
+    }
+    .form-control{
+        outline: none !important;
+        box-shadow: none !important;
+        padding: 0px;
+    }
+    .btn{
+        outline: none !important;
+        box-shadow: none !important;
+        padding:0px;
+    }
+    .dialogue{
+        height:60px;
+         border:none !important;
+         border-radius:0 !important;
+    }
+    .fixrow{
+        padding:0px !important;
+        margin-left:auto !important;
+        margin-right:auto !important;
+    }
+    .carousel-control-prev-icon {
+    /*background-image: url("content/leftarrow.png") !important;*/
+    height: 10% !important;
+    }
+    .carousel-control-next-icon {
+    /*background-image: url("content/rightarrow.png") !important;*/
+    height: 10% !important;
+    }
+    body{
+        font-family: "Roboto";
+    }

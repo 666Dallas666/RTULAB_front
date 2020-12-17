@@ -1,0 +1,35 @@
+.border-2 {
+    border-width:2px !important;
+    border-color:black !important;
+    }
+    .colfix{
+        padding:0px !important;
+    }
+    .fixrow{
+        padding:0px !important;
+        margin-left:auto !important;
+        margin-right:auto !important;
+    }
+    .corners{
+        border-color:rgb(238,220,227);
+        border-radius:20px;
+    }
+    .form-control{
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    body{
+        font-family: "Roboto";
+    }
+    .nowrap {
+        white-space: nowrap ;
+      }
+      ::placeholder{
+        color:black !important;
+        opacity:0.8 !important;
+    }
+    .btn{
+        outline: none !important;
+        box-shadow: none !important;
+        padding:0px;
+    }

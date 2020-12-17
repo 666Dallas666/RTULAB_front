@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="content/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="messenger.component.css">
+</head>
+<body style = "overflow-wrap:break-word">
+<div class="row">
+    <div class="col col-auto colfix">
+        <div class="container border rounded-left border-2 contwidth" style="min-height: 750px; padding:0px">
+         <div class="row  border-bottom border-2 fixrow" style="min-height:40px">
+        <div class = "col colfix text-center align-self-center">
+            <img class="img-fluid" src="assets/search_24px.png" width=22 height=22>
+        </div>
+        <div class = "col-auto col colfix" style="width:70%">
+            <input type="search" class="form-control nonborder"  placeholder="Поиск" style="max-height:100% !important;">
+        </div>
+        <div class = "col colfix  text-center align-self-center">
+        <button class="btn btn-default" >
+            <img  src="assets/IconColor.png" width=20 height=20>
+        </button>
+        </div>
+        </div>
+        <div *ngFor="let dialogue of showdialogsService.getDialogues(); let i = index">
+         <button type="button" class="btn nowrap dialogue container-fluid" style="background-color:rgb(170,158,158);margin-bottom:5px;" routerLink="dialogue/{{i}}">
+             <div class="row fixrow ">
+            <div style="padding-left:2% !important;" class="align-self-center">
+                <img  src="assets/bruh.png" class=" border rounded-circle" height=50px width=50px>
+            </div>
+            <div class="col colfix " style="height:60px">
+                <div class=" fixrow row " >
+                    <div class="col colfix container-fluid text-left" style="padding-top:5px !important; padding-left:10px !important">
+                        <div style="font-weight:bold">{{dialogue[0]}}</div>
+                    </div>
+                    <div class="col colfix container-fluid text-right" style="padding-top:5px !important; padding-right:10px !important">
+                        <div style="font-size:14px; color:rgb(131,132,114)">{{dialogue[1]}}</div>
+                    </div>
+                </div>
+                <div class="fixrow row" style="padding-left:10px !important">
+                    <div style="color:rgb(131,132,114)">{{dialogue[2]}}</div>
+                </div>
+            </div>
+        </div>
+         </button>
+        </div>
+        </div>
+    </div>
+    <div class="col colfix">
+        <div class="container border border-left-0 rounded-right border-2 contwidth1" style="min-height: 750px; padding:0px">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="navbar.component.css">
+<nav class="navbar navbar-expand-lg pt-2 pb-2 mb-2 container-fluid" style=" background-color:rgb(170,158,158)">
+  <div class="container-fluid">
+  <form style="max-height:25px !important;" class="paddingg">
+    <div class="input-group mb-2">
+      <div class="input-group-prepend" style="max-height:25px !important;">
+        <div class="input-group-text corners border" style="background-color: rgb(238,220,227) !important">
+        <img class="img-fluid" src="assets/search_24px.png" height=15 width = 15>
+        </div>
+      </div>
+      <input type="search" class="form-control corners border"  placeholder="Поиск" style=" background-color: rgb(238,220,227); max-height:25px !important;">
+    </div>
+  </form>
+  <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+    &#9776;
+  </button>
+  <div [ngbCollapse]="isMenuCollapsed" class=" collapse navbar-collapse justify-content-lg-end paddingg2" >
+    <ul class="navbar-nav justify-content-around">
+      <button class="btn btn-default marg">
+        <img class="img-fluid" src="assets/notifications_24px.png" style="max-height:25px" >
+      </button >
+      <button class="btn btn-default marg">
+        <img class="img-fluid" src="assets/Vector.png" style="max-height:25px" >
+      </button>
+    </ul>
+  </div>
+</div>
+</nav>
