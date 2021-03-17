@@ -1,0 +1,33 @@
+.footerbigtext{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 40px;
+    color:#FB929E;
+}
+.footertext{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 25px;
+    line-height: 24px;
+}
+.footertext1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 20px;
+    line-height: 20px;
+    color:#FB929E;
+}
+.wrapper {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+}
+@media (max-width: 992px) {
+    .class2{
+        padding-right:5% !important;
+        padding-left:5% !important;
+    }
+}

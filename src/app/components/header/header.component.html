@@ -6,96 +6,78 @@
     <link rel="shortcut icon" href="content/favicon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="header.component.css">
+    <link rel="stylesheet" href="./header.component.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 </head>
-<body style = "overflow-wrap:break-word">
-  <ngbd-collapse-navbar></ngbd-collapse-navbar>
-  <div class="row">
-  <div class="col-auto paddingg" style="margin-top:20px">
-  <div class="row margin1">
-  <div class="col col-auto">
-  <img class="img-fluid" src="assets/trip_origin_24px.png" width=20 height=20>
- </div>
- <div class="col col-auto" style="margin-left:8px">
-  Домой
-  </div>
-  </div>
-  <div class="row margin1">
-    <div class="col col-auto">
-    <img class="img-fluid" src="assets/local_post_office_24px.png" width=20 height=20>
-   </div>
-   <div class="col col-auto" style="margin-left:8px">
-    <a routerLink="messeges">Мессенджер</a>
+<body class = "class1" style = "overflow-wrap:break-word">
+<nav class="navbar sticky-top navbar-expand-lg" style=" background-color:#FB929E; box-shadow: 1px 1px 6px">
+  <div class="container-fluid">
+  <button class="btn btn-default">
+    <img routerLink="main" (click)="cleartag()" class="img-fluid" src="assets/logo.svg" style="max-height:63px" >
+  </button>
+  <form style="max-height:32px !important;" class="paddingg">
+    <div class="input-group">
+      <div class="input-group-prepend" style="max-height:32px !important;">
+        <div class="input-group-text corners" style="background-color: #FFF6F6 !important; box-shadow:inset 1px 2px 6px;">
+        <img class="img-fluid" src="assets/searchicon.svg" height=24 width = 24>
+        </div>
+      </div>
+      <input type="text" (keyup.enter)="maincomponent.settag(tag)"  class="form-control corners" [(ngModel)]="tag" [ngModelOptions]="{ standalone: true }" placeholder="Поиск по тэгам" style=" background-color: #FFF6F6; max-height:32px !important; box-shadow:inset 0px 2px 6px !important; font-size:23px; font-weight:600 !important;font-family:'Roboto', sans-serif">
+    </div>
+  </form>
+  <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+    &#9776;
+  </button>
+  <div [ngbCollapse]="isMenuCollapsed" class=" collapse navbar-collapse justify-content-between" >
+          <div ngbDropdown class="d-inline-block">
+            <button *ngIf="userService.logIn; else elseBlock1" class="btn btn-default" id="dropdownBasic1" ngbDropdownToggle>
+              <img class="img-fluid mg1" src="assets/states.svg" style="max-height:35px; margin-top:8px; margin-left:27px " >
+            </button>
+            <ng-template #elseBlock1>
+              <div class="disappear" style="height:35px; margin-top:8px; margin-left:27px "></div>
+            </ng-template>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+              <button routerLink="create" ngbDropdownItem>Создать статью</button>
+              <button ngbDropdownItem>Просмотр статей</button>
+            </div>
+          </div>
+      <div class="buttonstyle">
+    <div *ngIf="!userService.logIn; else elseBlock">
+      <button class="btn btn-default marg">
+        <img routerLink="authorization" class="img-fluid mg1" src="assets/letmein.svg" style="max-height:35px; margin-top:8px " >
+      </button>
+      <img class="img-fluid usericon" src="assets/usericon.svg" style="height:50px; margin-right:16px; margin-left:16px; margin-top:8px" >
+    </div>
+      <ng-template #elseBlock>
+        <button class="btn btn-default marg">
+          <img (click)="logout()" class="img-fluid mg1" src="assets/out.svg" style="max-height:35px; margin-top:8px " >
+        </button>
+        <img class="img-fluid usericon" src="assets/usericon.svg" style="height:50px; margin-right:16px; margin-left:16px; margin-top:8px" >
+      </ng-template>
     </div>
   </div>
-    <div class="row margin1">
-      <div class="col col-auto">
-      <img class="img-fluid" src="assets/play_circle_filled_white_24px.png" width=20 height=20>
-     </div>
-     <div class="col col-auto" style="margin-left:8px">
-      Контент
-      </div>
-      </div>
-      <div class="row margin1">
-        <div class="col col-auto">
-        <img class="img-fluid" src="assets/settings_24px.png" width=20 height=20>
-       </div>
-       <div class="col col-auto" style="margin-left:8px">
-        Настройки
-        </div>
-        </div>
-        <div class="row margin1">
-          <div class="col col-auto">
-          <img class="img-fluid" src="assets/favorite_border_24px.png" width=20 height=20>
-         </div>
-         <div class="col col-auto" style="margin-left:8px">
-          Знакомства
-          </div>
-          </div>
-          <div class="row margin1">
-            <div class="col col-auto">
-            <img class="img-fluid" src="assets/bruh.png" width=25 height=25>
-           </div>
-           <div class="col col-auto" style="margin-left:8px">
-            Bruh
-            </div>
-            </div>
-            <div class="row margin1">
-              <div class="col col-auto">
-              <img class="img-fluid" src="assets/bruh.png" width=25 height=25>
-             </div>
-             <div class="col col-auto" style="margin-left:8px">
-              Bruh
-              </div>
-              </div>
-              <div class="row margin1">
-                <div class="col col-auto">
-                <img class="img-fluid" src="assets/bruh.png" width=25 height=25>
-               </div>
-               <div class="col col-auto" style="margin-left:8px">
-                Bruh
-                </div>
-                </div>
-                <div class="row margin1">
-                  <div class="col col-auto">
-                  <img class="img-fluid" src="assets/bruh.png" width=25 height=25>
-                 </div>
-                 <div class="col col-auto" style="margin-left:8px">
-                  Bruh
-                  </div>
-                  </div>
-                  <div class="row margin1">
-                    <div class="col col-auto">
-                    <img class="img-fluid" src="assets/bruh.png" width=25 height=25>
-                   </div>
-                   <div class="col col-auto" style="margin-left:8px">
-                    Bruh
-                    </div>
-                    </div>
 </div>
-<div class="col-auto" style="margin-top:20px">
-  <router-outlet></router-outlet>
+</nav>
+<div class="frame" style="background-color: #FFDFDF; min-height: calc(100vh - 204px); padding: 40px">
+<router-outlet></router-outlet>
 </div>
+<div style="background-color: #FB929E; min-height:141px;">
+  <div class = "row" style="padding:0px !important; margin:0px !important">
+    <div class = "col background" style="padding:0px !important; background-repeat: no-repeat; min-height:141px">
+      <div class="footerbigtext mg" style="margin-left:40px; margin-top:23px">О НАС</div>
+      <div class="footertext mg" style="margin-left:40px;">Данный сайт является заданием для поступления в лабораторию института ИТ РТУ <br> МИРЭА и предназначается для ознакомления пользователя с актуальными <br> новостями университета. Сайт создан студентом второго курса <br>
+РТУ МИРЭА, Мамоновым Сергеем.</div>
+    </div>
+    <div class = "col wrapper background1" style="padding:0px !important; background-repeat: no-repeat; min-height:141px; background-position:right">
+      <div class="footerbigtext text-right mg" style="margin-right:202px; margin-top:23px">ПОЛЕЗНЫЕ ССЫЛКИ</div>
+      <div class="footertext text-right mg" style="margin-right:259px;"><a href="https://www.mirea.ru/">Сайт РТУ МИРЭА</a></div>
+      <div class="footertext text-right mg" style="margin-right:259px;"> <a href="https://github.com/666Dallas666">Проект на GitHub</a></div>
+      <div class="footertext text-right mg" style="margin-right:206px;">Сайт сделан при помощи 
+        <a href="https://angular.io/">Angular</a></div>
+      <div class="footertext text-right mg" style="margin-right:344px;">Почта для связи: mamonov.s.a@edu.mirea.ru</div>
+    </div>
   </div>
+</div>
 </body>
 </html>

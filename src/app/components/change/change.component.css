@@ -1,0 +1,8 @@
+@media (max-width: 992px) {
+    .back1{
+        width:100% !important;
+        height: 740px !important;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+}

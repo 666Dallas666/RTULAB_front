@@ -1,0 +1,116 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "source": "newsBTC",
+      "tags": [
+        "business",
+        "news",
+        "tag1"
+      ],
+      "author": "AUTHOR",
+      "title": "TEST ARTICLE",
+      "description": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,000 range. Bitcoin is moving higher on continued institutional…",
+      "coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+      "publishedAt": "2021-02-14T07:58:16Z",
+      "content": "test just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+    },
+    {
+      "id": 2,
+      "source": "newsBTC",
+      "tags": [
+        "business",
+        "sport"
+      ],
+      "author": "Nick Chong",
+      "title": "Some sport title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel li",
+      "coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+      "publishedAt": "2021-02-14T07:58:16Z",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula mi. Morbi malesuada suscipit enim nec lacinia. Aenean vel pharetra metus. Maecenas ac ex in libero molestie ultricies a non leo. Phasellus placerat tempus magna nec fringilla. Pellentesque aliquam nec sem a lobortis. Donec ut mauris in turpis volutpat condimentum. Mauris ac metus quis neque dictum semper. Suspendisse mollis condimentum lectus, sit amet tempor nibh ornare a. Donec varius neque quam, sed auctor arcu accumsan ut. Etiam nec venenatis odio. Sed id quam scelerisque, fermentum ipsum sit amet, tincidunt velit."
+    },
+    {
+      "id": 3,
+      "source": "newsBTC",
+      "tags": [
+        "tag2",
+        "bitcoin",
+        "tag1",
+        "newtag"
+      ],
+      "author": "Redbird",
+      "title": "Discount on chickenburgers in McDonalds",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus nunc, condimentum quis vulputate elementum,",
+      "coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+      "publishedAt": "2021-02-14T07:58:16Z",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus nunc, condimentum quis vulputate elementum, rhoncus in mauris. Nam a dictum nulla. Aenean lobortis aliquet neque at euismod. Morbi metus ligula, rhoncus eget malesuada vitae, vestibulum ac dolor. Nulla facilisi. Vivamus ornare erat nec ligula ullamcorper dapibus. Proin iaculis tortor tempus purus aliquet, non luctus diam dictum. Etiam ut aliquam neque, sed ultrices enim."
+    },
+    {
+      "id": 4,
+      "source": "newsB",
+      "tags": [
+        "bott"
+      ],
+      "author": "Author",
+      "title": "Some anothe title",
+      "description": "Quisque malesuada enim ipsum, eu bibendum orci lacinia quis.",
+      "coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+      "publishedAt": "2021-02-14T07:58:16Z",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada enim ipsum, eu bibendum orci lacinia quis. Duis eget purus ac ex dignissim faucibus. Suspendisse potenti. Donec erat tellus, elementum sit amet tincidunt id, rutrum vitae ipsum. Vestibulum facilisis consequat vulputate. Morbi vel metus efficitur, ultricies ipsum eget, auctor lorem. Proin varius nisi vel tempor blandit. Donec ullamcorper, eros maximus finibus molestie, dolor lacus rhoncus metus, quis pellentesque lacus augue eu augue. In vehicula sollicitudin dolor ut porta. Nullam lacus metus, laoreet quis porta sed, bibendum sed sem. Curabitur fermentum et lorem a mollis. Duis ut aliquam nunc."
+    },
+    {
+      "id": 5,
+      "source": "none",
+      "tags": [
+        "business"
+      ],
+      "author": "Dallas",
+      "title": "Title1",
+      "coverImage": "http://fotorelax.ru/wp-content/uploads/2016/03/Beautiful-photos-and-pictures-on-various-subjects-01.jpg",
+      "publishedAt": "2020-04-14T07:57:16Z",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a tempus ligula. Vivamus sagittis at sapien et condimentum. Aenean ac tempus augue. Duis finibus sit amet eros eget rhoncus. Nunc feugiat dui in tempus vehicula. Duis varius in tortor quis venenatis. Suspendisse tincidunt odio ornare, pharetra lacus nec, malesuada nisi.",
+      "description": "consectetur adipiscing elit. Ut a tempus ligula."
+    },
+    {
+      "id": 6,
+      "source": "none",
+      "tags": [
+        "tag1",
+        "sport"
+      ],
+      "author": "Author2",
+      "title": "Title2",
+      "coverImage": "http://fotorelax.ru/wp-content/uploads/2016/03/Beautiful-photos-and-pictures-on-various-subjects-01.jpg",
+      "publishedAt": "2020-04-14T07:57:16Z",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a tempus ligula. Vivamus sagittis at sapien et condimentum. Aenean ac tempus augue. Duis finibus sit amet eros eget rhoncus. Nunc feugiat dui in tempus vehicula. Duis varius in tortor quis venenatis. Suspendisse tincidunt odio ornare, pharetra lacus nec, malesuada nisi.",
+      "description": "Duis varius in tortor quis venenatis."
+    },
+    {
+      "id": 7,
+      "source": "none",
+      "tags": "jnkjk, oijoij, joijoj",
+      "author": "buysfgvuyguygh",
+      "title": "HGIUHIUHIUH",
+      "coverImage": "https://beregifiguru.ru/Storage/PostImages/15935/e8779423-b176-4c2a-af93-651ea8319f61.jpg",
+      "publishedAt": "none",
+      "content": "Hhuhiuhiuvbnv",
+      "description": "Hhuhiuhiuvbnv"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "login": "admin",
+      "password": "pa$$word"
+    },
+    {
+      "id": 2,
+      "login": "parker",
+      "password": "root666"
+    }
+  ],
+  "tokens": [
+    "xPNptrVF01USU1GziIK4uygfElqqLlksTD67hz7ZuX4gwz3GFb9IelmJuO6rdGTXuAWzBkIjP36u2MyNrff6hMQfCJ9PYGj0pczN",
+    "xc1XEFJFkp9qYexRUcpJOICgS4Qyn5JVK91cl5OgW7VdeHzXnv5QWwqeUnDeUoiXueIR8xMXb8YjGYlO2ABTSc0CkokrMpLljUuf"
+  ]
+}

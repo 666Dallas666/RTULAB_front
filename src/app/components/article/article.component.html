@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <title>Bruh</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="content/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./article.component.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="class2" style="overflow-wrap:break-word; background-color: #FFF6F6; height:100%; padding-top:40px; padding-bottom:40px; width:100%; border-radius: 30px; box-shadow: 1px 1px 6px; min-height:740px; padding-right:20%; padding-left:20%">
+  <div class="wrapper">
+  <div *ngIf="userService.logIn; else elseBlock">
+    <div style="width:100%">
+    <button class="btn float-right" style="padding:0px !important;margin-bottom:5px;">
+      <img routerLink="/change/{{id}}" class="img-fluid" src="assets/change.svg" style="height:35px;" >
+    </button>
+  </div>
+  </div>
+    <ng-template #elseBlock>
+      <div style="height:40px"></div>
+    </ng-template>
+  <div class="footerbigtext" style="text-align:center;">
+  {{article.title}}
+</div>
+</div>
+<div class="footertext1" style="margin-top:40px; text-align:left;">
+  Автор статьи: {{article.author}}
+</div>
+<div>
+  <img class="img-fluid" src="{{article.coverImage}}" style="margin-top: 10px" >
+</div>
+<div class="footertext" style="margin-top:40px; text-align:left; text-indent:10%;">
+  {{article.content}}
+</div>
+<div class="footertext1 row" style="margin-top:20px; text-align:left ; margin-left: 0px !important; margin-right:0px !important">
+  Тэги:<div *ngFor="let tag of article.tags" style="max-width:100%; margin-left:5px"> #{{tag}}</div>
+</div>
+<div class="footertext1" style="margin-top:20px; text-align:left;">
+  Опубликовано: {{article.publishedAt | date:'yyyy-MM-dd | HH:mm:ss'}}
+</div>
+</body>
+</html>

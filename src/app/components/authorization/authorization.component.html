@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <title>Bruh</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="content/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./authorization.component.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="class2" style="overflow-wrap:break-word; background-color: #FFF6F6; height:100%; padding-top:50px; width:100%; border-radius: 30px; box-shadow: 1px 1px 6px; min-height:740px; background-image: url(../../../assets/blob.svg); background-repeat: no-repeat; background-position:center">
+  <div class=" back1" style="background-color: #AEDEFC;margin:auto; width:50%; min-height:640px; box-shadow: 1px 1px 6px; border-radius: 20px; padding-top:80px">
+    <img class="img-fluid" src="assets/authorization.svg" style="height:50px; margin-left:auto; margin-right:auto; display:block; width: 298px; margin-bottom: 25px;" >
+    <div *ngIf="displayElement" class ="footertext" style="height:30px;text-align:center; color: red;" >Неверные данные!</div>
+    <div *ngIf="!displayElement" style="height:30px"></div>
+    <img class="img-fluid" src="assets/login.svg" style="height:26px; margin-left:7%; margin-top: 20px" >
+    <div class="input-group mb-2">
+      <input type="text" class="form-control footertext" [(ngModel)]="login" style=" background-color:#FFF6F6; max-height:32px !important; border-radius: 20px; margin-left:7%; margin-right:7%; margin-top: 5px; width: 86%; box-shadow:inset 0px 1px 6px !important">
+    </div>
+    <img class="img-fluid" src="assets/password.svg" style="height:32px; margin-left:7%; margin-top: 75px" >
+    <div class="input-group mb-2">
+      <input type="password" class="form-control footertext" [(ngModel)]="password" style=" background-color:#FFF6F6; max-height:32px !important; border-radius: 20px; margin-left:7%; margin-right:7%; width: 86%; box-shadow:inset 0px 1px 6px !important">
+    </div>
+    <button type="submit" class="btn btn-default" (click)="Login()" style="padding:0px !important; margin-left:auto; margin-right:auto; display:block; margin-top:80px;">
+      <img class="img-fluid in" src="assets/in.svg" style="height:55px;">
+      <img class="img-fluid in1" src="assets/in1.svg" style="height:55px;">
+    </button>
+  </div>
+</body>
+</html>

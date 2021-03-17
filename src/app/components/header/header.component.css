@@ -1,82 +1,132 @@
 @media (max-width: 992px) {
-   
-    .paddingg{
-        padding-left:4%;
+        .body {
+          padding:0;
+          margin:0;
+        }
+        .paddingg{
+            padding-left:0px;
+            width:60%;
+        }
+        .paddingg2{
+            padding-right:0px;
+        }
+        .marg{
+            margin-right:0px;
+            margin-bottom:5px;
+        }
+        .navbar{
+            min-height:63px !important;
+        }
+        .usericon{
+            display:none !important;
+        }
+        .mg1{
+            margin:auto !important;
+        }
+        .disappear{
+            height: 0px !important;;
+            margin-top:0px !important;
+            margin-left:0px !important;
+        }
+        .frame{
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
     }
-    .paddingg2{
-        padding-right:0px;
+    @media (min-width: 992px) {
+        .paddingg{
+            margin-left: 2%;
+            width:300px;
+        }
+        .paddingg2{
+            padding-right:12.5%;
+        }
+        .marg{
+            margin-right:25px;
+            margin-bottom:0px;
+        }
+        .navbar{
+            height: 63px !important;
+        }
     }
-    .marg{
-        margin-right:0px;
-        margin-bottom:3px;
+    @media (min-width: 1460px) {
+        .background{
+            background-image: url(src/assets/leftblob.svg);
+            color: #FB929E;
+        }
+        .background1{
+            background-image: url(src/assets/rightblob.svg);
+            color: #FB929E;
+        }
     }
-}
-@media (min-width: 992px) {
-    .paddingg{
-        padding-left:14%;
+    @media (max-width: 1460px) {
+        .background{
+            background-image: none;
+            color: #FFF6F6;
+            margin: 0px !important;
+        }
+        .background1{
+            background-image: none;
+            color: #FFF6F6;
+            margin: 0px !important;
+        }
+        .mg{
+            margin: 0px !important;
+            text-align: center !important;
+        }
     }
-    .paddingg2{
-        padding-right:12.5%;
+    .dropdown-toggle::after {
+        display:none;
     }
-    .marg{
-        margin-right:5px;
-        margin-bottom:0px;
+    input::placeholder{
+        color:#FB929E !important;
+        text-shadow: inset 1px 2px 6px;
+        position: relative;
     }
-}
-.row{
-    padding:0px !important;
-    margin-left:auto !important;
-    margin-right:auto !important;
-}
-.col{
-    padding:0px !important;
-}
-.col-3{
-    padding-right:0px !important;
-}
-.margin1{
-    margin-bottom:20px;
-}
-.bg{
-    background-color: #d3b978;
-    background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+    .navbar{
+        padding:0px !important;
     }
-    .corners{
-        border-color:rgb(238,220,227);
-        border-radius:20px;
+    .container-fluid{
+        padding-left:0px !important;
+        padding-right:0px !important;
     }
-    ::placeholder{
-        color:black !important;
-        opacity:0.8 !important;
+    .img {
+        width: 100%;
+        height: auto;
     }
-    .form-control{
+    .btn{
         outline: none !important;
         box-shadow: none !important;
+        padding:0px !important;
+        margin:0px !important;
     }
-    .bg2{
-        background-color: #e6c181;
-        background-image: url("https://www.transparenttextures.com/patterns/my-little-plaid-dark.png");
-    }
-    .bg3{
-        background-color: #e6cfa5;
-        background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
-    }
-    .bg4{
-        background-color: #e7d5b0;
-        background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
-    }
-    .border-5 {
-    border-width:5px !important;
-    border-color:rgb(100, 85, 56) !important;
-    }
-    .border-2 {
-    border-width:2px !important;
-    border-color:rgb(100, 85, 56) !important;
-    }
-    mark{
-        background: #ffec82;
-        padding: 0 3px;
-    }
-    body{
-        font-family: "Roboto";
-    }
+        .corners{
+            border-color:#FFF6F6;
+            border-radius:10px;
+            border-width:0px;
+        }
+        ::placeholder{
+            color:black !important;
+            opacity:0.8 !important;
+        }
+        .form-control{
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        .footertext{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 500 !important;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .footerbigtext{
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 23px;
+            line-height: 27px;
+        }
+        .wrapper{
+            display: grid;
+        }
