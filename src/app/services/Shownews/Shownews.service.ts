@@ -2,15 +2,15 @@ import { Injectable } from '@angular/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
+import {Location} from '@angular/common'
  
-
 @Injectable({
   providedIn: 'root'
 })
 export class Article1{
   id: number = 0;
   source: string = "";
-  tags: Array<string> = [];
+  tags: string= "";
   author: string = "";
   title: string = "";
   description: string = "";
@@ -24,7 +24,7 @@ export class Article1{
 export class ShownewsService {
   url = 'http://localhost:5500';
   token:string="";
-  constructor(private http: HttpClient,private router: Router) { }
+  constructor(private http: HttpClient,private router: Router, private _location: Location) { }
   getnews(){
      return this.http.get(this.url + '/db', {})
      
@@ -34,7 +34,7 @@ export class ShownewsService {
     this.http.put(this.url+'/articles/'+[article.id],{
       "id": article.id,
       "source": article.source,
-      "tags":article.tags,
+      "tags":article.tags.split(", "),
       "author":article.author,
       "title":article.title,
       "description":article.description,
@@ -42,17 +42,8 @@ export class ShownewsService {
       "publishedAt" : article.publishedAt,
       "content" : article.content
     }, {headers})
-    .subscribe(
-      val => {
-          console.log("PUT call successful value returned in body", 
-                      val);
-      },
-      response => {
-          console.log("PUT call in error", response);
-      },
-      () => {
-          console.log("The PUT observable is now completed.");
-      }
+    .subscribe((resp: any) => (
+      this._location.back())
   );
 }
 createarticle(article:Article1){
@@ -60,25 +51,16 @@ createarticle(article:Article1){
     this.http.post(this.url+'/articles/',{
       "id": article.id,
       "source": "none",
-      "tags":article.tags,
+      "tags":article.tags.split(", "),
       "author":article.author,
       "title":article.title,
       "coverImage": article.coverImage,
-      "publishedAt" : "none",
+      "publishedAt" : Date.now().toString(),
       "content" : article.content,
       "description":article.content
     }, {headers})
-    .subscribe(
-      val => {
-          console.log("PUT call successful value returned in body", 
-                      val);
-      },
-      response => {
-          console.log("PUT call in error", response);
-      },
-      () => {
-          console.log("The PUT observable is now completed.");
-      }
+    .subscribe((resp: any) => (
+      this._location.back())
   );
 }
 }

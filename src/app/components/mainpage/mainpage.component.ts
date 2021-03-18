@@ -42,7 +42,14 @@ export class MainpageComponent implements OnInit {
     }
     return 0;
   }
-  
+  tag2:string|null=""
+  localtag(){
+    if(localStorage.getItem("tag") != ""){
+      this.tag2 = localStorage.getItem("tag")
+      return 1;
+    }
+    else return 0;
+  }
   ngOnInit() {
     this.showNews.getnews().subscribe((data:any) => this.articles = data["articles"]);
   }

@@ -9,7 +9,7 @@ import {UserService} from 'src/app/services/user/user.service';
 export class Article2{
   id: number = 0;
   source: string = "";
-  tags: Array<string> = [];
+  tags: string ="";
   author: string = "";
   title: string = "";
   description: string = "";

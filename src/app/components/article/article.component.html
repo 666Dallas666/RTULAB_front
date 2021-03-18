@@ -22,7 +22,7 @@
     <ng-template #elseBlock>
       <div style="height:40px"></div>
     </ng-template>
-  <div class="footerbigtext" style="text-align:center;">
+  <div class="footerbigtext" style="text-align:center; word-break: break-all;">
   {{article.title}}
 </div>
 </div>
@@ -30,7 +30,7 @@
   Автор статьи: {{article.author}}
 </div>
 <div>
-  <img class="img-fluid" src="{{article.coverImage}}" style="margin-top: 10px" >
+  <img class="img-fluid" src="{{article.coverImage}}" style="margin-top: 10px; width:100%" >
 </div>
 <div class="footertext" style="margin-top:40px; text-align:left; text-indent:10%;">
   {{article.content}}

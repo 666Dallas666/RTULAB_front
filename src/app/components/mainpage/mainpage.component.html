@@ -11,7 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body style="background-color: #FFF6F6; width:100%; border-radius: 30px; box-shadow: 1px 1px 6px; min-height: 740px; padding-top: 40px; overflow-wrap:break-word ">
-<div class="wrapper">
+<ng-container *ngIf="localtag()">
+    <div class="footertext1" style="margin-bottom:40px; padding-left:5%; padding-right:5%">
+       Показаны результаты по запросу: {{tag2}}
+    </div>
+</ng-container>
+<div class="wrapper">   
 <ng-container *ngFor="let article of articles">
 <ng-container *ngIf="checktag(article.tags)">
 <button type="button" routerLink="/article/{{article.id}}" class="btn nowrap article" style=" height:auto; background-color: #AEDEFC; margin-bottom:60px; border-radius: 20px !important; display:block; margin-left:auto; padding:30px !important; margin-right:auto; max-width:700px; box-shadow: 0px 1px 6px;">

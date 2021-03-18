@@ -5,4 +5,18 @@
         padding-right: 10px !important;
         padding-left: 10px !important;
     }
+    .class2{
+        padding-left:5% !important;
+        padding-right:5% !important
+
+    }
+    .in{
+        display:none;
+    }
+}
+    
+@media (min-width: 992px) {
+        .in1{
+            display:none;
+        }
 }

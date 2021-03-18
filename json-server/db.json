@@ -4,28 +4,26 @@
       "id": 1,
       "source": "newsBTC",
       "tags": [
-        "business",
-        "news",
+        "tag2",
         "tag1"
       ],
-      "author": "AUTHOR",
-      "title": "TEST ARTICLE",
+      "author": "Titan",
+      "title": "Test article",
       "description": "Bitcoin just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,000 range. Bitcoin is moving higher on continued institutional…",
-      "coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+      "coverImage": "https://sun9-36.userapi.com/impg/FOGZVTGMNyYF0_9e2GjBQ-a0n4FAZD5pRHmLCQ/fttFL9F4yks.jpg?size=1021x786&quality=96&sign=59f597e6081bdc61a6076cf580d9f66a&type=album",
       "publishedAt": "2021-02-14T07:58:16Z",
-      "content": "test just rocketed to a new all-time high at $49,400 despite consolidation in the price of Ethereum. The leading cryptocurrency set this new high after spending most of the past week in the $47,00… [+2028 chars]"
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut ex mauris. Morbi aliquam dapibus bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sit amet odio in diam varius laoreet ac a nisl. Nunc iaculis malesuada ante, eu hendrerit enim dictum quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Mauris ultrices lorem a nisi volutpat, sed fringilla ipsum consequat. Nullam molestie, ligula at viverra blandit, ligula ipsum dictum urna, at tempor eros erat in justo. Nulla sollicitudin egestas justo, ac euismod purus feugiat sit amet. Quisque mollis lacus lorem, sed ultrices lacus dictum a."
     },
     {
       "id": 2,
       "source": "newsBTC",
       "tags": [
-        "business",
-        "sport"
+        "tag3"
       ],
-      "author": "Nick Chong",
-      "title": "Some sport title",
+      "author": "Dallas",
+      "title": "Art news title",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel li",
-      "coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+      "coverImage": "https://sun9-17.userapi.com/impg/gnTLuJDuuW7Th1JVpmVSBATQtDB7dbNWUJLzrQ/CLi6UQAoQ2o.jpg?size=1064x486&quality=96&sign=ea37f7c64b64ca861328f777afbcfac6&type=album",
       "publishedAt": "2021-02-14T07:58:16Z",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ligula mi. Morbi malesuada suscipit enim nec lacinia. Aenean vel pharetra metus. Maecenas ac ex in libero molestie ultricies a non leo. Phasellus placerat tempus magna nec fringilla. Pellentesque aliquam nec sem a lobortis. Donec ut mauris in turpis volutpat condimentum. Mauris ac metus quis neque dictum semper. Suspendisse mollis condimentum lectus, sit amet tempor nibh ornare a. Donec varius neque quam, sed auctor arcu accumsan ut. Etiam nec venenatis odio. Sed id quam scelerisque, fermentum ipsum sit amet, tincidunt velit."
     },
@@ -34,14 +32,12 @@
       "source": "newsBTC",
       "tags": [
         "tag2",
-        "bitcoin",
-        "tag1",
-        "newtag"
+        "tag4"
       ],
       "author": "Redbird",
-      "title": "Discount on chickenburgers in McDonalds",
+      "title": "Some interesting title",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus nunc, condimentum quis vulputate elementum,",
-      "coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+      "coverImage": "https://sun9-24.userapi.com/impg/rad-Lq1dixMVRnXu1dm_Q1eQNXI1dlqXQ85GMA/uq41BlC-oXU.jpg?size=1376x500&quality=96&sign=b98f72a7f3ccf356821ee15a2956972a&type=album",
       "publishedAt": "2021-02-14T07:58:16Z",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus nunc, condimentum quis vulputate elementum, rhoncus in mauris. Nam a dictum nulla. Aenean lobortis aliquet neque at euismod. Morbi metus ligula, rhoncus eget malesuada vitae, vestibulum ac dolor. Nulla facilisi. Vivamus ornare erat nec ligula ullamcorper dapibus. Proin iaculis tortor tempus purus aliquet, non luctus diam dictum. Etiam ut aliquam neque, sed ultrices enim."
     },
@@ -49,12 +45,12 @@
       "id": 4,
       "source": "newsB",
       "tags": [
-        "bott"
+        "tag3"
       ],
-      "author": "Author",
-      "title": "Some anothe title",
+      "author": "Ange",
+      "title": "Some another title",
       "description": "Quisque malesuada enim ipsum, eu bibendum orci lacinia quis.",
-      "coverImage": "https://www.newsbtc.com/wp-content/uploads/2021/02/ken-cheung-10py7Mvmf1g-unsplash.jpg",
+      "coverImage": "https://sun9-26.userapi.com/impg/1ZVu1fbYV8K0WaVqDyD_khCYx9mTG370DKac3w/YpjizBcHM28.jpg?size=1228x430&quality=96&sign=99dd65ad3e95f3022d2a87501d4216eb&type=album",
       "publishedAt": "2021-02-14T07:58:16Z",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada enim ipsum, eu bibendum orci lacinia quis. Duis eget purus ac ex dignissim faucibus. Suspendisse potenti. Donec erat tellus, elementum sit amet tincidunt id, rutrum vitae ipsum. Vestibulum facilisis consequat vulputate. Morbi vel metus efficitur, ultricies ipsum eget, auctor lorem. Proin varius nisi vel tempor blandit. Donec ullamcorper, eros maximus finibus molestie, dolor lacus rhoncus metus, quis pellentesque lacus augue eu augue. In vehicula sollicitudin dolor ut porta. Nullam lacus metus, laoreet quis porta sed, bibendum sed sem. Curabitur fermentum et lorem a mollis. Duis ut aliquam nunc."
     },
@@ -62,39 +58,44 @@
       "id": 5,
       "source": "none",
       "tags": [
-        "business"
+        "tag5"
       ],
-      "author": "Dallas",
-      "title": "Title1",
-      "coverImage": "http://fotorelax.ru/wp-content/uploads/2016/03/Beautiful-photos-and-pictures-on-various-subjects-01.jpg",
+      "author": "Okone",
+      "title": "Title",
+      "coverImage": "https://sun9-39.userapi.com/impg/YLF7_E8GLlizXptTq6R-vj5q9_W9dJTNWFQt3g/V8hKI4XyDUE.jpg?size=609x779&quality=96&sign=1492e522ffd760af4d60ab4b02e8a3e1&type=album",
       "publishedAt": "2020-04-14T07:57:16Z",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a tempus ligula. Vivamus sagittis at sapien et condimentum. Aenean ac tempus augue. Duis finibus sit amet eros eget rhoncus. Nunc feugiat dui in tempus vehicula. Duis varius in tortor quis venenatis. Suspendisse tincidunt odio ornare, pharetra lacus nec, malesuada nisi.",
-      "description": "consectetur adipiscing elit. Ut a tempus ligula."
+      "description": "Phasellus porta dui sit amet suscipit semper. Sed luctus pretium turpis in tincidunt. Donec dolor arcu, facilisis vitae ligula sit amet, tincidunt egestas justo. Pellentesque auctor tincidunt augue nec ultricies. A"
     },
     {
       "id": 6,
       "source": "none",
       "tags": [
         "tag1",
-        "sport"
+        "tag5",
+        "tag3"
       ],
       "author": "Author2",
       "title": "Title2",
-      "coverImage": "http://fotorelax.ru/wp-content/uploads/2016/03/Beautiful-photos-and-pictures-on-various-subjects-01.jpg",
+      "description": "Pellentesque consequat aliquam lectus at sagittis. Vestibulum tempor lectus non aliquam tincidunt. Duis purus nibh, ullamcorper eu arcu non, imperdiet commodo libero.",
+      "coverImage": "https://sun9-24.userapi.com/impg/Wn1niBnyB0-DGkYddJzvJ8MnrXSxQiZ5OcHDyQ/YdtOYi2o3nE.jpg?size=894x732&quality=96&sign=2e758c415178e9655b79b39e08974586&type=album",
       "publishedAt": "2020-04-14T07:57:16Z",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a tempus ligula. Vivamus sagittis at sapien et condimentum. Aenean ac tempus augue. Duis finibus sit amet eros eget rhoncus. Nunc feugiat dui in tempus vehicula. Duis varius in tortor quis venenatis. Suspendisse tincidunt odio ornare, pharetra lacus nec, malesuada nisi.",
-      "description": "Duis varius in tortor quis venenatis."
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a tempus ligula. Vivamus sagittis at sapien et condimentum. Aenean ac tempus augue. Duis finibus sit amet eros eget rhoncus. Nunc feugiat dui in tempus vehicula. Duis varius in tortor quis venenatis. Suspendisse tincidunt odio ornare, pharetra lacus nec, malesuada nisi."
     },
     {
       "id": 7,
       "source": "none",
-      "tags": "jnkjk, oijoij, joijoj",
-      "author": "buysfgvuyguygh",
-      "title": "HGIUHIUHIUH",
-      "coverImage": "https://beregifiguru.ru/Storage/PostImages/15935/e8779423-b176-4c2a-af93-651ea8319f61.jpg",
+      "tags": [
+        "tag6",
+        "tag2",
+        "tag5"
+      ],
+      "author": "Jack",
+      "title": "Sport title",
+      "description": "Pellentesque consequat aliquam lectus at sagittis. Vestibulum tempor lectus non aliquam tincidunt. Duis purus nibh, ullamcorper eu arcu non, imperdiet commodo libero.",
+      "coverImage": "https://sun9-72.userapi.com/impg/JHscBnPjMCc7OpPp0N7B7MxAvfsE5CbamiGgeA/NVpT0hdk9XI.jpg?size=830x698&quality=96&sign=f3c4d7bcbb4f6ef62868d2f4b75f66b3&type=album",
       "publishedAt": "none",
-      "content": "Hhuhiuhiuvbnv",
-      "description": "Hhuhiuhiuvbnv"
+      "content": "Phasellus porta dui sit amet suscipit semper. Sed luctus pretium turpis in tincidunt. Donec dolor arcu, facilisis vitae ligula sit amet, tincidunt egestas justo. Pellentesque auctor tincidunt augue nec ultricies. Aliquam elementum nibh quis varius fringilla. Nam ac faucibus eros, vel lobortis erat. Etiam lorem purus, commodo a ultricies ut, semper non quam. Duis pharetra tortor felis, nec faucibus risus pharetra eu. Morbi ut fringilla elit. Phasellus sit amet quam ac urna consequat varius id eget ante. Aenean porta nisl id tellus sollicitudin, ut malesuada nunc vestibulum. Nulla facilisi. Donec convallis quis metus scelerisque cursus. Quisque ac lorem venenatis neque venenatis consequat non in libero. Proin tincidunt magna non purus laoreet congue."
     }
   ],
   "users": [
@@ -110,7 +111,6 @@
     }
   ],
   "tokens": [
-    "xPNptrVF01USU1GziIK4uygfElqqLlksTD67hz7ZuX4gwz3GFb9IelmJuO6rdGTXuAWzBkIjP36u2MyNrff6hMQfCJ9PYGj0pczN",
-    "xc1XEFJFkp9qYexRUcpJOICgS4Qyn5JVK91cl5OgW7VdeHzXnv5QWwqeUnDeUoiXueIR8xMXb8YjGYlO2ABTSc0CkokrMpLljUuf"
+    
   ]
 }
